@@ -16,6 +16,11 @@ Functions
 GET: http://localhost:8080/user/
 
 POST: http://localhost:8080/add/
+{
+	"firstName": "",
+	"lastName": "",
+	"contactNumber": ""
+}
 
 PUT: http://localhost:8080/update/id
 {
