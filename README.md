@@ -9,3 +9,19 @@ The four operations should be a put, post, get, delete.
 4. Delete - The delete function should delete the  user file. 5. Store the project in a git repository and push the git repository to bitbucket or GitHub and share the repository with us.  
 
 Important Note: All the operations should save and retrieve data from a file not a database
+
+*******************************************************************************************************************************************************************************
+Functions
+*******************************************************************************************************************************************************************************
+GET: http://localhost:8080/user/
+
+POST: http://localhost:8080/add/
+
+PUT: http://localhost:8080/update/id
+{
+	"firstName": "",
+	"lastName": "",
+	"contactNumber": ""
+}
+
+DELETE: http://localhost:8080/delete/id
