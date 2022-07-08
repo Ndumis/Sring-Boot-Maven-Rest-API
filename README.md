@@ -10,6 +10,11 @@ The four operations should be a put, post, get, delete.
 
 Important Note: All the operations should save and retrieve data from a file not a database
 
+****************************************************************************************************************************************************************************
+Database is called user.accdb.
+Located with the project file.
+Make sure to change application.properties under resource folder. The url should point to your project location.
+
 *******************************************************************************************************************************************************************************
 Functions
 *******************************************************************************************************************************************************************************
